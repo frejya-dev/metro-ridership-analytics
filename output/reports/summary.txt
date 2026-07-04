@@ -1,0 +1,24 @@
+LOS ANGELES METRO RIDERSHIP SUMMARY
+======================================
+
+Dataset
+-------
+Source: LA Metro By the Numbers
+Period: April 2025 – March 2026
+
+Key Metrics
+-----------
+Total Ridership           : 304,512,442
+Average Monthly Ridership : 25,376,037
+Highest Month             : Oct 25 (27,693,587)
+Lowest Month              : Feb 26 (23,518,952)
+Latest Month              : Mar 26 (26,800,747)
+Month-over-Month Change   : +14.0%
+
+Observations
+------------
+- Ridership remained relatively stable throughout the reporting period.
+- Oct 25 recorded the highest monthly ridership.
+- Mar 26 ended the period with +14.0% month-over-month change.
+
+Generated automatically with Python.

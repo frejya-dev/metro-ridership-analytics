@@ -14,14 +14,13 @@ def calculate_summary(df):
     ) * 100
 
     return {
-        "records": len(df),
-        "total_ridership": total_ridership,
-        "average_monthly": average_monthly,
+        "total": total_ridership,
+        "average": average_monthly,
         "highest_month": highest_month["Month"],
         "highest_value": highest_month["Total Ridership"],
         "lowest_month": lowest_month["Month"],
         "lowest_value": lowest_month["Total Ridership"],
         "latest_month": latest_month["Month"],
         "latest_value": latest_month["Total Ridership"],
-        "monthly_change": monthly_change,
+        "mom_change": monthly_change,
     }
