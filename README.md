@@ -1,26 +1,63 @@
 # LA Metro Ridership Analytics
 
-A Python analytics application that loads, analyzes, and visualizes Los Angeles Metro ridership data.
+A Python analytics project demonstrating data ingestion, analysis, visualization, and automated reporting using monthly Los Angeles Metro ridership data.
+
+# LA Metro Ridership Analytics
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![pandas](https://img.shields.io/badge/pandas-2.x-purple)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![ReportLab](https://img.shields.io/badge/ReportLab-PDF-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
 
-This project demonstrates a simple end-to-end analytics workflow using Python. It reads monthly Metro ridership data from a CSV file, calculates key performance metrics, generates a publication-ready chart, and exports both a text summary and a PDF report.
+This project demonstrates an end-to-end analytics workflow built with Python. Monthly Los Angeles Metro ridership data is imported from a CSV file, analyzed to calculate key performance metrics, visualized with Matplotlib, and exported as both text and PDF reports.
 
-The project is intentionally organized into reusable modules to reflect a real-world analytics codebase rather than a single script.
+The codebase is organized into reusable modules to reflect a real-world analytics application, separating data loading, analysis, visualization, and reporting into individual components.
 
 ## Features
 
-- Load CSV data with pandas
-- Calculate summary statistics
+- Import monthly ridership data with pandas
+- Calculate key ridership metrics and summary statistics
 - Identify highest and lowest ridership months
-- Calculate month-over-month change
-- Generate a professional bar chart using Matplotlib
-- Export a text summary report
-- Export a PDF report using ReportLab
+- Calculate month-over-month ridership change
+- Generate a Metro-inspired bar chart using Matplotlib
+- Export a formatted text summary
+- Generate a PDF analytics report with ReportLab
+- Organize functionality into reusable Python modules
+
+## Technologies
+
+- Python
+- pandas
+- Matplotlib
+- ReportLab
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/frejya-dev/metro-ridership-analytics.git
+cd metro-ridership-analytics
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python main.py
+```
 
 ## Project Structure
 
-```
+```text
 metro-ridership-analytics/
 │
 ├── data/
@@ -29,7 +66,13 @@ metro-ridership-analytics/
 │
 ├── output/
 │   ├── charts/
+│   │   └── monthly_ridership.png
 │   └── reports/
+│       ├── summary.txt
+│       └── ridership_report.pdf
+│
+├── images/
+│   └── chart-preview.png
 │
 ├── src/
 │   ├── loader.py
@@ -43,35 +86,42 @@ metro-ridership-analytics/
 └── README.md
 ```
 
-## Technologies
+## Output
 
-- Python
-- pandas
-- matplotlib
-- ReportLab
+Running the application automatically generates:
 
-## Example Output
+- Monthly ridership summary
+- Professional bar chart (.png)
+- Text report (.txt)
+- PDF analytics report (.pdf)
 
-Running
+## Sample Visualization
 
-```bash
-python main.py
-```
+![Metro Ridership Chart](![Metro Ridership Chart](images/chart-preview.png))
 
-generates:
+The chart is generated automatically from the source dataset using Matplotlib. The highest ridership month and latest month are highlighted to provide a quick visual summary of recent ridership trends.
 
-- Monthly ridership chart
-- Text analytics report
-- PDF summary report
+## Skills Demonstrated
+
+- Data loading and transformation
+- Exploratory data analysis
+- Data visualization
+- Automated report generation
+- Modular Python application design
+- File organization and project structure
 
 ## Future Improvements
 
 - Interactive dashboard
-- Trend analysis
-- Moving averages
+- Additional Metro-style visualizations
+- Rolling averages and trend analysis
 - Ridership forecasting
-- Additional visualizations
+- Data validation
+- Automated testing
+- Support for multiple datasets
 
 ## Author
 
-Frejya Lindh
+**Frejya Lindh**
+
+Web Developer | Digital Platforms | UX & Analytics
