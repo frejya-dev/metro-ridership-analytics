@@ -1,9 +1,5 @@
 # LA Metro Ridership Analytics
 
-A Python analytics project demonstrating data ingestion, analysis, visualization, and automated reporting using monthly Los Angeles Metro ridership data.
-
-# LA Metro Ridership Analytics
-
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![pandas](https://img.shields.io/badge/pandas-2.x-purple)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
