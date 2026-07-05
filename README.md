@@ -68,7 +68,7 @@ metro-ridership-analytics/
 │       └── ridership_report.pdf
 │
 ├── images/
-│   └── chart-preview.png
+│   └── monthly_ridership.png
 │
 ├── src/
 │   ├── loader.py
@@ -93,7 +93,7 @@ Running the application automatically generates:
 
 ## Sample Visualization
 
-![Metro Ridership Chart](![Metro Ridership Chart](images/chart-preview.png))
+![Metro Ridership Chart](images/monthly_ridership.png)
 
 The chart is generated automatically from the source dataset using Matplotlib. The highest ridership month and latest month are highlighted to provide a quick visual summary of recent ridership trends.
 
