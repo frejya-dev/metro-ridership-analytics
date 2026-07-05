@@ -1,5 +1,7 @@
 # LA Metro Ridership Analytics
 
+A Python analytics project demonstrating data ingestion, analysis, visualization, and automated reporting using monthly Los Angeles Metro ridership data.
+
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![pandas](https://img.shields.io/badge/pandas-2.x-purple)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
@@ -18,7 +20,7 @@ The codebase is organized into reusable modules to reflect a real-world analytic
 - Calculate key ridership metrics and summary statistics
 - Identify highest and lowest ridership months
 - Calculate month-over-month ridership change
-- Generate a Metro-inspired bar chart using Matplotlib
+- Create publication-ready visualizations with Matplotlib
 - Export a formatted text summary
 - Generate a PDF analytics report with ReportLab
 - Organize functionality into reusable Python modules
@@ -99,12 +101,12 @@ The chart is generated automatically from the source dataset using Matplotlib. T
 
 ## Skills Demonstrated
 
-- Data loading and transformation
-- Exploratory data analysis
-- Data visualization
-- Automated report generation
-- Modular Python application design
-- File organization and project structure
+- Data ingestion with pandas
+- Exploratory data analysis (EDA)
+- Data visualization with Matplotlib
+- Automated PDF report generation
+- Modular Python application architecture
+- File and project organization
 
 ## Future Improvements
 
