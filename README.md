@@ -1,125 +1,40 @@
 # LA Metro Ridership Analytics
 
-A Python analytics project demonstrating data ingestion, analysis, visualization, and automated reporting using monthly Los Angeles Metro ridership data.
+LA Metro Ridership Analytics is a Python project that explores monthly ridership trends using real LA Metro Open Data.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![pandas](https://img.shields.io/badge/pandas-2.x-purple)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![ReportLab](https://img.shields.io/badge/ReportLab-PDF-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+I built this project to practice working with real-world datasets, analyzing trends with Python, creating visualizations with Matplotlib, and generating a simple PDF report.
 
-## Overview
-
-This project demonstrates an end-to-end analytics workflow built with Python. Monthly Los Angeles Metro ridership data is imported from a CSV file, analyzed to calculate key performance metrics, visualized with Matplotlib, and exported as both text and PDF reports.
-
-The codebase is organized into reusable modules to reflect a real-world analytics application, separating data loading, analysis, visualization, and reporting into individual components.
+![Metro Ridership Visualization](./images/monthly_ridership.png)
 
 ## Features
 
-- Import monthly ridership data with pandas
-- Calculate key ridership metrics and summary statistics
-- Identify highest and lowest ridership months
-- Calculate month-over-month ridership change
-- Create publication-ready visualizations with Matplotlib
-- Export a formatted text summary
-- Generate a PDF analytics report with ReportLab
-- Organize functionality into reusable Python modules
+- Import and analyze ridership data with pandas
+- Calculate summary statistics and monthly changes
+- Generate visualizations with Matplotlib
+- Export a text summary and PDF report
+- Organize code into reusable Python modules
 
-## Technologies
+## Built With
 
 - Python
 - pandas
 - Matplotlib
 - ReportLab
 
-## Installation
+## Why I Built This
 
-Clone the repository:
+I wanted to build a small end-to-end analytics project that went beyond creating charts. This project gave me experience loading data, organizing an analysis workflow, generating visualizations, and producing simple reports from a real dataset.
 
-```bash
-git clone https://github.com/frejya-dev/metro-ridership-analytics.git
-cd metro-ridership-analytics
-```
+## Skills Practiced
 
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python main.py
-```
-
-## Project Structure
-
-```text
-metro-ridership-analytics/
-│
-├── data/
-│   └── raw/
-│       └── systemwide_ridership.csv
-│
-├── output/
-│   ├── charts/
-│   │   └── monthly_ridership.png
-│   └── reports/
-│       ├── summary.txt
-│       └── ridership_report.pdf
-│
-├── images/
-│   └── monthly_ridership.png
-│
-├── src/
-│   ├── loader.py
-│   ├── analyzer.py
-│   ├── charts.py
-│   ├── reporter.py
-│   └── pdf_report.py
-│
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
-## Output
-
-Running the application automatically generates:
-
-- Monthly ridership summary
-- Professional bar chart (.png)
-- Text report (.txt)
-- PDF analytics report (.pdf)
-
-## Sample Visualization
-
-![Metro Ridership Chart](images/monthly_ridership.png)
-
-The chart is generated automatically from the source dataset using Matplotlib. The highest ridership month and latest month are highlighted to provide a quick visual summary of recent ridership trends.
-
-## Skills Demonstrated
-
-- Data ingestion with pandas
+- Data analysis with pandas
 - Exploratory data analysis (EDA)
 - Data visualization with Matplotlib
-- Automated PDF report generation
-- Modular Python application architecture
-- File and project organization
+- Modular Python project organization
+- Automated report generation
 
-## Future Improvements
+---
 
-- Interactive dashboard
-- Additional Metro-style visualizations
-- Rolling averages and trend analysis
-- Ridership forecasting
-- Data validation
-- Automated testing
-- Support for multiple datasets
+Monthly ridership data is based on LA Metro Open Data.
 
-## Author
-
-**Frejya Lindh**
-
-Web Developer | Digital Platforms | UX & Analytics
+Built by **Frejya Lindh** as part of my data and frontend development portfolio.
