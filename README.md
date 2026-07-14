@@ -2,7 +2,7 @@
 
 LA Metro Ridership Analytics is a Python project that explores monthly ridership trends using real LA Metro Open Data.
 
-I built this project to practice working with real-world datasets, analyzing trends with Python, creating visualizations with Matplotlib, and generating a simple PDF report.
+I built this project to practice working with a real-world dataset, analyzing trends with Python, creating visualizations with Matplotlib, and generating a simple PDF report.
 
 ![Metro Ridership Visualization](./images/monthly_ridership.png)
 
@@ -37,4 +37,4 @@ I wanted to build a small end-to-end analytics project that went beyond creating
 
 Monthly ridership data is based on LA Metro Open Data.
 
-Built by **Frejya Lindh** as part of my data and frontend development portfolio.
+Built by **Frejya Lindh** as part of my developer portfolio.
